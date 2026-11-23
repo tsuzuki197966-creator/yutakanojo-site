@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="canonical" href="https://yutakanojo.co.jp/">
+<meta property="og:title" content="ユタカ農場 | 東松山の特別栽培米・農薬不使用米">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yutakanojo.co.jp/">
+<meta property="og:image" content="https://yutakanojo.co.jp/images/photo-sunrise.jpg">
+<title>ユタカ農場 | 東松山の特別栽培米・農薬不使用米</title>
+<meta name="description" content="埼玉県東松山市のユタカ農場（YUTAKA NOJO）。網本式有機稲作で育てた特別栽培米と、数量限定の農薬・化学肥料不使用米をお届けします。">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="images/favicon-64.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Space+Grotesk:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+/* 田んぼの緑と稲穂の金。単一の明るいテーマで統一 */
+:root { --accent: #E8B021; --ground: #F2F4EC; --ink: #13201A; --leaf: #1E4D2B; color-scheme: light }
+html { scroll-behavior: smooth }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto } }
+body { margin: 0; background: var(--ground); color: var(--ink); font-family: 'Zen Kaku Gothic New', 'Hiragino Sans', 'Noto Sans JP', sans-serif }
+section, header, footer, .demo-bar { padding-left: max(24px, env(safe-area-inset-left, 0px)) !important; padding-right: max(24px, env(safe-area-inset-right, 0px)) !important }
+h1, h2, h3 { text-wrap: balance }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid var(--leaf); outline-offset: 3px }
+img { max-width: 100% }
+.hero-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;animation:heroFade 18s infinite}
+.hero-slide.first{opacity:1;animation:none}
+@keyframes heroFade{0%{opacity:0}6%{opacity:1}33%{opacity:1}39%{opacity:0}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){.hero-slide{animation:none}}
+.demo-bar { background: var(--ink); color: #F2F4EC; font-size: 13px; padding-block: 10px; text-align: center; line-height: 1.6 }
+@media (max-width: 520px) { #top [style*="position: absolute"] { position: static !important; margin-top: 16px; max-width: none !important } }
+</style>
+</head>
+<body>
+<div style="font-family: 'Zen Kaku Gothic New', sans-serif; color: #13201A; background: #F2F4EC; line-height: 1.8; font-size: 16px; overflow-x: hidden">
+
+<!-- ===== ヘッダー ===== -->
+<header style="position: relative; z-index: 2; padding: 20px 24px; border-bottom: 1px solid #D5DCCB">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px">
+<a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #13201A">
+<img src="images/logo-mark.svg" alt="" width="52" height="52" style="display: block; width: 52px; height: 52px">
+<span style="display: flex; flex-direction: column; line-height: 1.2">
+<span style="font-weight: 900; font-size: 18px; letter-spacing: 0.04em">ユタカ農場</span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 11px; letter-spacing: 0.18em; color: #4A5A4E">YUTAKA NOJO ・ HIGASHIMATSUYAMA</span>
+</span>
+</a>
+<nav aria-label="メインメニュー" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; font-size: 14px; font-weight: 700">
+<a href="#products" style="text-decoration: none; color: #13201A; padding: 10px 0">お米・野菜</a>
+<a href="#about" style="text-decoration: none; color: #13201A; padding: 10px 0">私たちについて</a>
+<a href="#method" style="text-decoration: none; color: #13201A; padding: 10px 0">網本式有機稲作</a>
+<a href="#company" style="text-decoration: none; color: #13201A; padding: 10px 0">会社概要</a>
+<a href="#join" style="text-decoration: none; color: #13201A; padding: 10px 0">就農したい方へ</a>
+<a href="https://yutakanojo.buyshop.jp/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: #FFFFFF; background: #1E4D2B; padding: 10px 18px; border-radius: 999px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.5L21 8H6.2"></path><circle cx="10" cy="20" r="1.4"></circle><circle cx="17" cy="20" r="1.4"></circle></svg>オンラインショップ</a>
+<a href="#visit" style="text-decoration: none; color: #13201A; background: var(--accent); padding: 10px 20px; border-radius: 999px">見学に来る</a>
+</nav>
+</div>
+</header>
+
+<!-- ===== ヒーロー ===== -->
+<section id="top" style="padding: 64px 24px 48px">
+<div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 56px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 28px">
+<span style="align-self: flex-start; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; color: #1E4D2B; border: 1.5px solid #1E4D2B; border-radius: 999px; padding: 6px 16px">埼玉県東松山市 ／ 26町の田んぼから</span>
+<h1 style="margin: 0; font-family: 'Dela Gothic One', sans-serif; font-weight: 400; font-size: clamp(40px, 6vw, 80px); line-height: 1.2; letter-spacing: 0.01em">東松山の<br>田んぼから、<br>まっすぐ届く<br><span style="background: linear-gradient(transparent 60%, var(--accent) 60%)">お米</span>を。</h1>
+<p style="margin: 0; font-size: 17px; color: #3A4A3E; max-width: 34em">網本式有機稲作で育てた、特別栽培米（1kgあたり500円）と、数量限定の農薬・化学肥料不使用米（1kgあたり1,000円）。<br>埼玉県東松山市の田んぼから、ご自宅へお届けします。</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="#products" style="display: inline-flex; align-items: center; gap: 10px; text-decoration: none; background: #1E4D2B; color: #FFFFFF; font-weight: 700; padding: 16px 28px; border-radius: 999px; min-height: 24px">お米を見る
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+<a href="https://yutakanojo.buyshop.jp/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; text-decoration: none; color: #13201A; font-weight: 700; padding: 16px 28px; border-radius: 999px; border: 2px solid #13201A; min-height: 24px">オンラインショップ</a>
+</div>
+</div>
+<div style="position: relative">
+<div style="position: relative; width: 100%; max-width: 100%; aspect-ratio: 4 / 5; border-radius: 28px; overflow: hidden; background: #1E4D2B">
+<img class="hero-slide first" src="images/photo-sunrise.jpg" alt="朝日の中、田んぼを歩く" style="object-position: 66% 50%">
+<img class="hero-slide" src="images/photo-higanbana.jpg" alt="" style="object-position: 50% 70%; animation-delay: 6s">
+<img class="hero-slide" src="images/photo-sunset.jpg" alt="" style="object-position: 50% 60%; animation-delay: 12s">
+</div>
+<div style="position: absolute; left: -16px; bottom: 32px; background: #FFFFFF; border-radius: 20px; padding: 18px 22px; box-shadow: 0 12px 32px rgba(19, 32, 26, 0.14); display: flex; align-items: center; gap: 14px; max-width: 280px">
+<span style="flex-shrink: 0; width: 44px; height: 44px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#13201A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21V9"></path><path d="M12 12c-3-.5-5-3-5-6 3 0 5 2.5 5 6z"></path><path d="M12 16c3-.5 5-3 5-6-3 0-5 2.5-5 6z"></path></svg>
+</span>
+<span style="font-size: 14px; line-height: 1.5"><strong style="display: block; font-size: 15px">網本式有機稲作 実践中</strong>有機稲作の第一人者・網本欣一氏が直接指導</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== お米・野菜 ===== -->
+<section id="products" style="padding: 32px 24px 112px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; color: #1E4D2B">PRODUCTS</span>
+<h2 style="margin: 0; font-family: 'Dela Gothic One', sans-serif; font-weight: 400; font-size: clamp(32px, 4vw, 52px); line-height: 1.3">田んぼと畑の、<br>めぐみ。</h2>
+</div>
+<a href="https://yutakanojo.buyshop.jp/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; text-decoration: none; background: #1E4D2B; color: #FFFFFF; font-weight: 700; padding: 16px 28px; border-radius: 999px">オンラインショップで購入する
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<img src="images/shipping.jpg" alt="出荷を待つ10kg入りのお米" style="display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 45%">
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; font-weight: 700; color: #1E4D2B; letter-spacing: 0.08em">令和8年産・東松山</span>
+<span style="font-size: 20px; font-weight: 900">特別栽培米 [品種名]</span>
+<span style="font-size: 15px; color: #3A4A3E">農薬と化学肥料を減らして育てた、東松山のお米。</span>
+<div style="display: flex; flex-direction: column; border-top: 1px solid #DCE3D3; margin-top: 4px">
+<div style="display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid #DCE3D3"><span>3kg</span><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; font-variant-numeric: tabular-nums">1,500円</span></div>
+<div style="display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid #DCE3D3"><span>5kg</span><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; font-variant-numeric: tabular-nums">2,500円</span></div>
+<div style="display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid #DCE3D3"><span>10kg</span><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; font-variant-numeric: tabular-nums">5,000円</span></div>
+</div>
+<span style="font-size: 13px; color: #4A5A4E">1kgあたり500円（税込）・送料別</span>
+<a href="https://yutakanojo.buyshop.jp/" target="_blank" rel="noopener" style="margin-top: 8px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; color: #13201A; background: var(--accent); font-weight: 700; font-size: 15px; padding: 12px 20px; border-radius: 999px">BASEで購入する
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+</div>
+</div>
+<div style="background: #FFFFFF; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<img src="images/vegetables.jpg" alt="季節の野菜（イメージ）" style="display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 3; object-fit: cover">
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; font-weight: 700; color: #1E4D2B; letter-spacing: 0.08em">畑から</span>
+<span style="font-size: 20px; font-weight: 900">季節の野菜 [品目]</span>
+<span style="font-size: 15px; color: #3A4A3E">3〜4町の畑で育つ、旬の野菜をお届けします。</span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px">[価格]</span>
+<a href="https://yutakanojo.buyshop.jp/" target="_blank" rel="noopener" style="margin-top: 8px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; color: #13201A; background: var(--accent); font-weight: 700; font-size: 15px; padding: 12px 20px; border-radius: 999px">BASEで購入する
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+</div>
+</div>
+<div style="background: #1E4D2B; color: #FFFFFF; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="aspect-ratio: 4 / 3; max-width: 100%; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 24px; text-align: center; border-bottom: 1px solid #2F6B40">
+<span style="font-size: 13px; font-weight: 700; color: #13201A; background: var(--accent); padding: 4px 14px; border-radius: 999px">数量限定</span>
+<span style="font-size: 26px; font-weight: 900; line-height: 1.4">農薬・化学肥料<br>不使用米</span>
+<span style="font-size: 13px; color: #C6D5C3">栽培期間中、農薬・化学肥料を使わずに育てたお米</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; font-weight: 700; color: var(--accent); letter-spacing: 0.08em">令和8年産・東松山</span>
+<span style="font-size: 20px; font-weight: 900">農薬・化学肥料不使用米 [品種名]</span>
+<span style="font-size: 15px; color: #C6D5C3">網本式の栽培で、栽培期間中は農薬も化学肥料も使っていません。今年は数量限定でのご案内です。</span>
+<div style="display: flex; flex-direction: column; border-top: 1px solid #2F6B40; margin-top: 4px">
+<div style="display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid #2F6B40"><span>5kg</span><span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; font-variant-numeric: tabular-nums">5,000円</span></div>
+</div>
+<span style="font-size: 13px; color: #C6D5C3">1kgあたり1,000円（税込）・送料別</span>
+<a href="https://yutakanojo.buyshop.jp/" target="_blank" rel="noopener" style="margin-top: 8px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; color: #13201A; background: var(--accent); font-weight: 700; font-size: 15px; padding: 12px 20px; border-radius: 999px">BASEで購入する
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+</div>
+</div>
+</div>
+<div style="background: #1E4D2B; color: #FFFFFF; border-radius: 28px; padding: clamp(28px, 4vw, 48px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px 40px">
+<div style="display: flex; align-items: center; gap: 20px; flex: 1 1 420px; min-width: 0">
+<span style="flex-shrink: 0; width: 64px; height: 64px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13201A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l1.5-5h15L21 9"></path><path d="M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"></path><path d="M5 13v7h14v-7"></path><path d="M10 20v-4h4v4"></path></svg>
+</span>
+<div style="display: flex; flex-direction: column; gap: 4px; min-width: 0">
+<span style="font-size: clamp(20px, 2.4vw, 28px); font-weight: 900; line-height: 1.4">東松山のお米を、ご自宅へ。</span>
+<span style="font-size: 15px; color: #C6D5C3">お米・野菜は、オンラインショップ（BASE）からご購入いただけます。</span>
+</div>
+</div>
+<a href="https://yutakanojo.buyshop.jp/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; text-decoration: none; background: var(--accent); color: #13201A; font-weight: 700; font-size: 17px; padding: 18px 32px; border-radius: 999px">オンラインショップへ
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+</div>
+</div>
+</section>
+
+<!-- ===== 届いた、ありがとう ===== -->
+<section id="voices" style="padding: 0 24px 112px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px 64px">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; color: #1E4D2B">VOICES</span>
+<h2 style="margin: 0; font-family: 'Dela Gothic One', sans-serif; font-weight: 400; font-size: clamp(32px, 4vw, 52px); line-height: 1.3">届いた、<br>ありがとう。</h2>
+</div>
+<p style="margin: 0; color: #3A4A3E; max-width: 34em; flex: 1 1 360px">お米をお届けした保育園の子どもたちから、うれしいお便りが届きました。「たくさんたべて おおきくなります」。この言葉が、私たちの田んぼづくりの原動力です。</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<figure style="margin: 0; flex: 1.6 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<img src="images/poster.jpg" alt="子どもたちの似顔絵で飾られた「おこめ ありがとう」のポスター" style="display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 24px">
+<figcaption style="font-size: 13px; color: #4A5A4E">たかさかひまわり保育園のみなさんから（お子さまの写真はぼかしています）</figcaption>
+</figure>
+<figure style="margin: 0; flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<img src="images/letter.jpg" alt="おにぎり形のお礼の手紙「おいしいおこめをありがとうございます」" style="display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 24px">
+<figcaption style="font-size: 13px; color: #4A5A4E">わかまつ保育園のお子さんから届いた、おにぎり形のお手紙</figcaption>
+</figure>
+</div>
+</div>
+</section>
+
+<!-- ===== 数字バンド ===== -->
+<section style="padding: 0 24px 96px">
+<div style="max-width: 1200px; margin: 0 auto; background: #1E4D2B; color: #FFFFFF; border-radius: 28px; padding: 40px; box-sizing: border-box; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 56px; line-height: 1; color: var(--accent)">26<span style="font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 22px; margin-left: 4px">町</span></span>
+<span style="font-size: 14px; color: #C6D5C3">耕作している田んぼ（約26ha）</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 56px; line-height: 1; color: var(--accent)">3–4<span style="font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 22px; margin-left: 4px">町</span></span>
+<span style="font-size: 14px; color: #C6D5C3">野菜を育てる畑</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 56px; line-height: 1; color: var(--accent)">25<span style="font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 22px; margin-left: 4px">年以上</span></span>
+<span style="font-size: 14px; color: #C6D5C3">指導者・網本欣一氏の有機農業歴</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 56px; line-height: 1; color: var(--accent)">0<span style="font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 22px; margin-left: 4px">へ</span></span>
+<span style="font-size: 14px; color: #C6D5C3">農薬・化学肥料への依存ゼロを目指して</span>
+</div>
+</div>
+</section>
+
+<!-- ===== 私たちについて ===== -->
+<section id="about" style="padding: 0 24px 112px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 32px 64px; align-items: end">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; color: #1E4D2B">OUR MISSION</span>
+<h2 style="margin: 0; font-family: 'Dela Gothic One', sans-serif; font-weight: 400; font-size: clamp(32px, 4vw, 52px); line-height: 1.3">田んぼから、<br>未来の暮らしをつくる。</h2>
+</div>
+<p style="margin: 0; color: #3A4A3E">ユタカ農場は、埼玉県東松山市で田んぼ26町・畑3〜4町を耕す農業法人です。土と水と生きものの力を活かし、農薬・化学肥料に依存しない栽培に挑戦しながら、これから農業を始める若い世代が「ここなら挑戦できる」と思える場所づくりに取り組んでいます。</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 24px">
+<div style="background: #FFFFFF; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: flex-start">
+<span style="width: 56px; height: 56px; border-radius: 16px; background: #E3EBDA; display: flex; align-items: center; justify-content: center">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22V10"></path><path d="M12 14c-4-.5-7-3.5-7-8 4 0 7 3.5 7 8z"></path><path d="M12 10c3-.5 6-3 6-7-3.5 0-6 3-6 7z"></path><path d="M4 22h16"></path></svg>
+</span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; color: #B8C4B0">01</span>
+</div>
+<h3 style="margin: 0; font-size: 20px; font-weight: 900; line-height: 1.5">農薬・化学肥料に<br>頼らない栽培</h3>
+<p style="margin: 0; font-size: 15px; color: #3A4A3E">網本式有機稲作を軸に、田んぼの生態系そのものを育てる米づくりを実践。安心して食べられるお米を、次の世代の田んぼとともに残します。</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: flex-start">
+<span style="width: 56px; height: 56px; border-radius: 16px; background: #E3EBDA; display: flex; align-items: center; justify-content: center">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="7" r="3"></circle><circle cx="17" cy="9" r="2.5"></circle><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6"></path><path d="M15 15.5c.6-.3 1.3-.5 2-.5 2.5 0 4 2 4 5"></path></svg>
+</span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; color: #B8C4B0">02</span>
+</div>
+<h3 style="margin: 0; font-size: 20px; font-weight: 900; line-height: 1.5">次世代の<br>就農者を育てる</h3>
+<p style="margin: 0; font-size: 15px; color: #3A4A3E">「農業をやってみたい」という若い人たちが、技術も、仲間も、暮らしも手に入れられるように。現場で学び、独立まで伴走します。</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: flex-start">
+<span style="width: 56px; height: 56px; border-radius: 16px; background: #E3EBDA; display: flex; align-items: center; justify-content: center">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h11a3 3 0 1 0-3-3"></path><path d="M3 12h16a3 3 0 1 1-3 3"></path><path d="M3 16h7"></path></svg>
+</span>
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 28px; color: #B8C4B0">03</span>
+</div>
+<h3 style="margin: 0; font-size: 20px; font-weight: 900; line-height: 1.5">東松山に<br>「風の谷」をつくる</h3>
+<p style="margin: 0; font-size: 15px; color: #3A4A3E">都市に集中しなくても、自然とともに豊かに暮らせる地域へ。田んぼと畑を起点に、人が集まり、学び、めぐる里山をつくります。</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== 網本式有機稲作 ===== -->
+<section id="method" style="background: #1E4D2B; color: #FFFFFF; padding: 112px 24px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 72px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 56px; align-items: center">
+<img src="images/photo-harvest.jpg" alt="鉄塔の下、コンバインで稲刈りをする田んぼ" style="display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 55%; border-radius: 28px">
+<div style="display: flex; flex-direction: column; gap: 24px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; color: var(--accent)">AMIMOTO METHOD</span>
+<h2 style="margin: 0; font-family: 'Dela Gothic One', sans-serif; font-weight: 400; font-size: clamp(32px, 4vw, 52px); line-height: 1.3">網本式有機稲作を、<br>東松山で。</h2>
+<p style="margin: 0; color: #D5E2D2">私たちの米づくりは、25年以上にわたり有機農業に取り組み、有機稲作にこだわり続けてきた網本欣一氏の直接指導のもとで行っています。教科書ではなく、田んぼで積み重ねられてきた知恵と技術。それを受け継ぎ、26町の田んぼで実践しています。</p>
+<div style="background: #FFFFFF; color: #13201A; border-radius: 24px; padding: 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 20px 28px">
+<img src="images/amimoto.jpg" alt="網本欣一氏" style="display: block; flex: 0 0 150px; width: 150px; height: 200px; max-width: 100%; border-radius: 50%; object-fit: cover; object-position: 62% 30%; outline: 4px solid var(--accent); outline-offset: 4px">
+<div style="flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap">
+<span style="font-size: 13px; font-weight: 700; color: #4A5A4E">指導</span>
+<span style="font-size: 26px; font-weight: 900; letter-spacing: 0.06em">網本 欣一 氏</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px">
+<div style="display: flex; gap: 12px; align-items: flex-start">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 4px"><path d="M5 12l5 5 9-10"></path></svg>
+<span>埼玉県杉戸町で、<strong>埼玉県の新規就農者第1号</strong>として就農。県の就農に風穴を開けた先駆者</span>
+</div>
+<div style="display: flex; gap: 12px; align-items: flex-start">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 4px"><path d="M5 12l5 5 9-10"></path></svg>
+<span>有機農業歴<strong>25年以上</strong>。有機稲作にこだわり続ける</span>
+</div>
+<div style="display: flex; gap: 12px; align-items: flex-start">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 4px"><path d="M5 12l5 5 9-10"></path></svg>
+<span>現在は<strong>全国の自治体から指導の依頼</strong>が相次ぐ</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 28px">
+<h3 style="margin: 0; font-size: 22px; font-weight: 900">田んぼの一年</h3>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 16px">
+<div style="border: 1.5px solid #4C7A59; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<img src="images/season-spring.jpg" alt="ネットをかけて育てる稲の苗" style="display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 70%; border-radius: 12px; margin-bottom: 8px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 0.14em; color: var(--accent)">SPRING</span>
+<span style="font-size: 18px; font-weight: 900">春｜土と苗をつくる</span>
+<span style="font-size: 14px; color: #C6D5C3">[網本式の土づくり・苗づくりのポイントを記載]</span>
+</div>
+<div style="border: 1.5px solid #4C7A59; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<img src="images/season-planting.jpg" alt="田植え機で苗を植える" style="display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 35%; border-radius: 12px; margin-bottom: 8px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 0.14em; color: var(--accent)">EARLY SUMMER</span>
+<span style="font-size: 18px; font-weight: 900">初夏｜田植え</span>
+<span style="font-size: 14px; color: #C6D5C3">[田植えの時期・方法を記載]</span>
+</div>
+<div style="border: 1.5px solid #4C7A59; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<img src="images/season-summer.jpg" alt="実り始めた稲穂" style="display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 40%; border-radius: 12px; margin-bottom: 8px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 0.14em; color: var(--accent)">SUMMER</span>
+<span style="font-size: 18px; font-weight: 900">夏｜田んぼを見守る</span>
+<span style="font-size: 14px; color: #C6D5C3">[水管理・草対策の工夫を記載]</span>
+</div>
+<div style="border: 1.5px solid #4C7A59; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<img src="images/season-autumn.jpg" alt="黄金色に実った稲穂" style="display: block; width: 100%; max-width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 45%; border-radius: 12px; margin-bottom: 8px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 0.14em; color: var(--accent)">AUTUMN</span>
+<span style="font-size: 18px; font-weight: 900">秋｜稲刈り・収穫</span>
+<span style="font-size: 14px; color: #C6D5C3">[収穫・乾燥・出荷の流れを記載]</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== 風の谷 ===== -->
+<section id="kazenotani" style="padding: 112px 24px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 760px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; color: #1E4D2B">KAZE NO TANI</span>
+<h2 style="margin: 0; font-family: 'Dela Gothic One', sans-serif; font-weight: 400; font-size: clamp(36px, 5vw, 64px); line-height: 1.25">東松山に、<br>「風の谷」を。</h2>
+<p style="margin: 0; color: #3A4A3E; font-size: 17px">「風の谷」は、安宅和人氏が提唱する、都市に集中しなくても自然とともに豊かに暮らせる“残すに値する未来”をつくろうという構想です。私たちは、東松山の田んぼと畑を舞台に、その風の谷をかたちにしようと奔走しています。</p>
+</div>
+<img src="images/photo-morning.jpg" alt="東松山の朝。うろこ雲の下に広がる田んぼ" style="display: block; width: 100%; max-width: 100%; aspect-ratio: 21 / 8; min-height: 220px; object-fit: cover; object-position: 50% 62%; border-radius: 28px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 10px; border-top: 3px solid #13201A; padding-top: 20px">
+<span style="font-size: 20px; font-weight: 900">食べものを、自分たちの手で</span>
+<span style="font-size: 15px; color: #3A4A3E">農薬・化学肥料に頼らない田畑で、地域の食を地域でまかなう。食の自給から、暮らしの豊かさをつくります。</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; border-top: 3px solid #13201A; padding-top: 20px">
+<span style="font-size: 20px; font-weight: 900">人が集まり、学び合う</span>
+<span style="font-size: 15px; color: #3A4A3E">就農を目指す若者、地域の人、全国の仲間。田んぼを「学びと出会いの場」にひらき、挑戦する人が集まる谷へ。</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; border-top: 3px solid #13201A; padding-top: 20px">
+<span style="font-size: 20px; font-weight: 900">自然と経済がめぐる</span>
+<span style="font-size: 15px; color: #3A4A3E">環境を守ることと、農業で食べていけること。その両方が成り立つ、持続可能な地域のしくみを東松山から。</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== 就農したい方へ ===== -->
+<section id="join" style="background: var(--accent); padding: 112px 24px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 64px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 40px 64px; align-items: start">
+<div style="display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.2em">FOR NEXT FARMERS</span>
+<h2 style="margin: 0; font-family: 'Dela Gothic One', sans-serif; font-weight: 400; font-size: clamp(36px, 5vw, 64px); line-height: 1.25">ここで、<br>農家になろう。</h2>
+<p style="margin: 0; font-size: 17px">農業は、きつい・儲からない・閉じている。そんなイメージを、私たちは変えたい。最新の知恵と、自然の力と、仲間がいれば、農業はもっと自由で、もっとおもしろい仕事になります。</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<span style="font-size: 18px; font-weight: 900">こんな人を待っています</span>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px">
+<div style="display: flex; gap: 12px; align-items: flex-start">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 4px"><path d="M5 12l5 5 9-10"></path></svg>
+<span>農業をやってみたいけど、何から始めればいいかわからない</span>
+</div>
+<div style="display: flex; gap: 12px; align-items: flex-start">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 4px"><path d="M5 12l5 5 9-10"></path></svg>
+<span>有機農業に、本気で取り組んでみたい</span>
+</div>
+<div style="display: flex; gap: 12px; align-items: flex-start">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 4px"><path d="M5 12l5 5 9-10"></path></svg>
+<span>地域づくりや、新しい暮らし方に興味がある</span>
+</div>
+<div style="display: flex; gap: 12px; align-items: flex-start">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 4px"><path d="M5 12l5 5 9-10"></path></svg>
+<span>未経験だけど、体を動かして学びたい</span>
+</div>
+</div>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 20px">
+<div style="background: #13201A; color: #FFFFFF; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.14em; color: var(--accent)">STEP 01</span>
+<span style="font-size: 22px; font-weight: 900">田んぼ見学・農業体験</span>
+<span style="font-size: 15px; color: #C6D5C3">まずは現場へ。田んぼに入り、土にふれ、私たちと話してみてください。</span>
+<span style="font-size: 13px; color: #9FB29B">[開催日程・参加費などを記載]</span>
+</div>
+<div style="background: #13201A; color: #FFFFFF; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.14em; color: var(--accent)">STEP 02</span>
+<span style="font-size: 22px; font-weight: 900">研修で網本式を学ぶ</span>
+<span style="font-size: 15px; color: #C6D5C3">26町の田んぼを舞台に、有機稲作の技術と経営を実践の中で身につけます。</span>
+<span style="font-size: 13px; color: #9FB29B">[研修期間・待遇・募集人数などを記載]</span>
+</div>
+<div style="background: #13201A; color: #FFFFFF; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.14em; color: var(--accent)">STEP 03</span>
+<span style="font-size: 22px; font-weight: 900">東松山で就農・独立</span>
+<span style="font-size: 15px; color: #C6D5C3">農地、販路、住まい、仲間。東松山で農家として歩き出すまで伴走します。</span>
+<span style="font-size: 13px; color: #9FB29B">[独立支援の内容を記載]</span>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="#visit" style="display: inline-flex; align-items: center; gap: 10px; text-decoration: none; background: #13201A; color: #FFFFFF; font-weight: 700; padding: 18px 32px; border-radius: 999px; font-size: 17px">まずは見学に申し込む
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+</div>
+</section>
+
+
+
+<!-- ===== お知らせ ===== -->
+<section id="news" style="padding: 112px 24px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 32px 64px">
+<div style="display: flex; flex-direction: column; gap: 12px; flex: 1 1 240px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; color: #1E4D2B">NEWS</span>
+<h2 style="margin: 0; font-size: 32px; font-weight: 900">田んぼだより</h2>
+<p style="margin: 8px 0 0; font-size: 14px; color: #3A4A3E">毎日の田んぼの様子は、SNSでも発信しています。</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<a href="#news" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: #1E4D2B; border: 1.5px solid #1E4D2B; border-radius: 999px; padding: 10px 16px; font-size: 14px; font-weight: 700">Instagram<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+<a href="#news" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: #1E4D2B; border: 1.5px solid #1E4D2B; border-radius: 999px; padding: 10px 16px; font-size: 14px; font-weight: 700">Facebook<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+<a href="#news" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: #1E4D2B; border: 1.5px solid #1E4D2B; border-radius: 999px; padding: 10px 16px; font-size: 14px; font-weight: 700">X<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; flex: 999 1 560px; min-width: 0">
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 20px 0; border-top: 1px solid #C8D1BD; color: #13201A">
+<span style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; color: #4A5A4E; min-width: 110px">2026.11.23</span>
+<span style="font-size: 12px; font-weight: 700; background: #E3EBDA; color: #1E4D2B; padding: 2px 10px; border-radius: 999px; align-self: center">お知らせ</span>
+<span style="flex: 1 1 280px">ユタカ農場のホームページを公開しました。</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px; padding: 28px; margin-top: 8px; border: 1.5px dashed #B8C4B0; border-radius: 20px; background: #F7F9F3">
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 0.12em; color: #1E4D2B">COMING SOON</span>
+<span style="font-size: 20px; font-weight: 900">田んぼだより、近日公開</span>
+<span style="font-size: 15px; color: #3A4A3E">田んぼの四季の様子や、見学会・研修生募集などのお知らせを、こちらでお届けしていきます。もうしばらくお待ちください。</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== 会社概要 ===== -->
+<section id="company" style="padding: 0 24px 112px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 32px 64px">
+<div style="display: flex; flex-direction: column; gap: 12px; flex: 1 1 240px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; color: #1E4D2B">COMPANY</span>
+<h2 style="margin: 0; font-size: 32px; font-weight: 900">会社概要</h2>
+</div>
+<dl style="margin: 0; flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column">
+<div style="display: flex; flex-wrap: wrap; gap: 6px 32px; padding: 20px 0; border-top: 1px solid #C8D1BD">
+<dt style="flex: 0 0 160px; font-weight: 700; color: #1E4D2B">商号</dt>
+<dd style="margin: 0; flex: 1 1 320px; min-width: 0">ユタカ農場株式会社<br><span style="font-size: 13px; color: #4A5A4E">（旧社名：ユタカアグリプロダクツ株式会社）</span></dd>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 32px; padding: 20px 0; border-top: 1px solid #C8D1BD">
+<dt style="flex: 0 0 160px; font-weight: 700; color: #1E4D2B">拠点所在地</dt>
+<dd style="margin: 0; flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<span><strong>本社・埼玉東松山農場</strong><br>〒355-0073 埼玉県東松山市上野本1435番地<br>TEL 070-9394-3291（代表）</span>
+<span><strong>東京オフィス</strong><br>東京都品川区東大井1-15-10　ユタカ株式会社内</span>
+</dd>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 32px; padding: 20px 0; border-top: 1px solid #C8D1BD">
+<dt style="flex: 0 0 160px; font-weight: 700; color: #1E4D2B">設立</dt>
+<dd style="margin: 0; flex: 1 1 320px; min-width: 0">令和2年（2020年）9月</dd>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 32px; padding: 20px 0; border-top: 1px solid #C8D1BD">
+<dt style="flex: 0 0 160px; font-weight: 700; color: #1E4D2B">資本金</dt>
+<dd style="margin: 0; flex: 1 1 320px; min-width: 0">3,571万円</dd>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 32px; padding: 20px 0; border-top: 1px solid #C8D1BD; border-bottom: 1px solid #C8D1BD">
+<dt style="flex: 0 0 160px; font-weight: 700; color: #1E4D2B">事業内容</dt>
+<dd style="margin: 0; flex: 1 1 320px; min-width: 0">
+<ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 10px 32px">
+<li style="display: flex; gap: 10px; align-items: flex-start"><span style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 11px"></span><span>水稲・野菜・果樹生産の全国大規模展開</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><span style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 11px"></span><span>後継者不足で存続が不安な農家の運営支援</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><span style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 11px"></span><span>安全安心な減農薬・有機活用生産</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><span style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 11px"></span><span>生産物の一括買い上げ及び直接販売</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><span style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 11px"></span><span>経験豊かな高齢農業人との協業・活用</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><span style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 11px"></span><span>若手農業人の育成と雇用</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><span style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 11px"></span><span>日本品質の農作物を世界へ輸出</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><span style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 11px"></span><span>農業関連イベント・セールスプロモーションの企画運営</span></li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><span style="flex-shrink: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); margin-top: 11px"></span><span>飲食店及び喫茶店の経営</span></li>
+</ul>
+</dd>
+</div>
+</dl>
+</div>
+</section>
+
+<!-- ===== お問い合わせ ===== -->
+<section id="visit" style="padding: 0 24px 112px">
+<div style="max-width: 1200px; margin: 0 auto; background: #FFFFFF; border-radius: 32px; padding: clamp(28px, 5vw, 64px); box-sizing: border-box; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 20px">
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; color: #1E4D2B">CONTACT</span>
+<h2 style="margin: 0; font-family: 'Dela Gothic One', sans-serif; font-weight: 400; font-size: clamp(30px, 3.6vw, 46px); line-height: 1.3">まずは、<br>田んぼに来てみませんか。</h2>
+<p style="margin: 0; color: #3A4A3E">田んぼ見学・農業体験、研修・就農のご相談、お米のご注文、自治体・企業さまからの視察や取材まで、お気軽にお問い合わせください。</p>
+<div style="display: flex; flex-direction: column; gap: 12px; font-size: 15px; margin-top: 8px">
+<div style="display: flex; gap: 12px; align-items: flex-start">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 4px"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"></path><circle cx="12" cy="9" r="2.5"></circle></svg>
+<span>本社・埼玉東松山農場<br>〒355-0073 埼玉県東松山市上野本1435番地</span>
+</div>
+<div style="display: flex; gap: 12px; align-items: flex-start">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E4D2B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink: 0; margin-top: 4px"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg>
+<span>070-9394-3291（代表）</span>
+</div>
+</div>
+</div>
+<form id="contact-form" style="display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label for="c-type" style="font-size: 14px; font-weight: 700">ご用件</label>
+<select id="c-type" name="type" style="font: inherit; padding: 14px 16px; border: 1.5px solid #B8C4B0; border-radius: 12px; background: #F7F9F3; color: #13201A">
+<option>田んぼ見学・農業体験</option>
+<option>研修・就農のご相談</option>
+<option>お米・野菜のご注文</option>
+<option>視察・取材・講演のご依頼</option>
+<option>その他</option>
+</select>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 18px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label for="c-name" style="font-size: 14px; font-weight: 700">お名前</label>
+<input id="c-name" name="name" type="text" required="" placeholder="例）東松山 太郎" style="font: inherit; padding: 14px 16px; border: 1.5px solid #B8C4B0; border-radius: 12px; background: #F7F9F3; color: #13201A">
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label for="c-mail" style="font-size: 14px; font-weight: 700">メールアドレス</label>
+<input id="c-mail" name="email" type="email" required="" placeholder="例）name@example.com" style="font: inherit; padding: 14px 16px; border: 1.5px solid #B8C4B0; border-radius: 12px; background: #F7F9F3; color: #13201A">
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<label for="c-msg" style="font-size: 14px; font-weight: 700">メッセージ</label>
+<textarea id="c-msg" name="message" rows="5" required="" placeholder="ご希望の日程や、ご質問などをご自由にお書きください" style="font: inherit; padding: 14px 16px; border: 1.5px solid #B8C4B0; border-radius: 12px; background: #F7F9F3; color: #13201A; resize: vertical"></textarea>
+</div>
+<button type="submit" style="font: inherit; font-weight: 700; font-size: 17px; background: #1E4D2B; color: #FFFFFF; border: 0; border-radius: 999px; padding: 18px 32px; cursor: pointer; align-self: flex-start; min-height: 44px">メールソフトで送信する</button>
+<p style="margin: 0; font-size: 13px; color: #4A5A4E">ボタンを押すと、入力内容が入ったメールがお使いのメールソフトで開きます。そのまま送信してください。宛先：info@yutakanojo.co.jp</p>
+<p id="form-note" role="status" hidden style="margin: 0; font-size: 14px; color: #1E4D2B; font-weight: 700"></p>
+</form>
+</div>
+</section>
+
+<!-- ===== フッター ===== -->
+<footer style="background: #13201A; color: #FFFFFF; padding: 64px 24px 32px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 420px">
+<span style="display: flex; align-items: center; gap: 14px"><img src="images/logo-mark-rev.svg" alt="" width="56" height="56" style="display: block; flex-shrink: 0; width: 56px; height: 56px"><span style="display: flex; flex-direction: column; line-height: 1.3"><span style="font-weight: 900; font-size: 20px; letter-spacing: 0.04em">ユタカ農場株式会社</span><span style="font-family: 'Space Grotesk', sans-serif; font-size: 11px; letter-spacing: 0.2em; color: #C4A468">YUTAKA NOJO Co., Ltd.</span></span></span>
+<span style="font-size: 14px; color: #B9C9B6">埼玉県東松山市で、農薬・化学肥料に頼らない農業と、次世代の就農者育成、そして「風の谷」づくりに取り組んでいます。</span>
+<nav aria-label="公式SNS" style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px">
+<a href="#news" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: #FFFFFF; border: 1.5px solid #4C5E52; border-radius: 999px; padding: 10px 18px; font-size: 14px; font-weight: 700">Instagram<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+<a href="#news" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: #FFFFFF; border: 1.5px solid #4C5E52; border-radius: 999px; padding: 10px 18px; font-size: 14px; font-weight: 700">Facebook<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+<a href="#news" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: #FFFFFF; border: 1.5px solid #4C5E52; border-radius: 999px; padding: 10px 18px; font-size: 14px; font-weight: 700">X<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"></path><path d="M8 7h9v9"></path></svg></a>
+</nav>
+</div>
+<nav aria-label="フッターメニュー" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 40px; font-size: 14px">
+<a href="#products" style="color: #FFFFFF; text-decoration: none; padding: 8px 0">お米・野菜</a>
+<a href="#about" style="color: #FFFFFF; text-decoration: none; padding: 8px 0">私たちについて</a>
+<a href="#method" style="color: #FFFFFF; text-decoration: none; padding: 8px 0">網本式有機稲作</a>
+<a href="#kazenotani" style="color: #FFFFFF; text-decoration: none; padding: 8px 0">風の谷</a>
+<a href="#join" style="color: #FFFFFF; text-decoration: none; padding: 8px 0">就農したい方へ</a>
+<a href="#company" style="color: #FFFFFF; text-decoration: none; padding: 8px 0">会社概要</a>
+<a href="https://yutakanojo.buyshop.jp/" target="_blank" rel="noopener" style="color: #FFFFFF; text-decoration: none; padding: 8px 0">オンラインショップ（BASE）↗</a>
+<a href="#visit" style="color: #FFFFFF; text-decoration: none; padding: 8px 0">お問い合わせ</a>
+</nav>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; border-top: 1px solid #2E3D33; padding-top: 24px; font-size: 13px; color: #9FB29B">
+<span>本社・埼玉東松山農場：〒355-0073 埼玉県東松山市上野本1435番地　TEL 070-9394-3291（代表）</span>
+<span>© ユタカ農場株式会社（YUTAKA NOJO Co., Ltd.）</span>
+</div>
+</div>
+</footer>
+
+</div>
+<script>
+(function(){
+  var f = document.getElementById('contact-form');
+  if (!f) return;
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    var g = function(id){ return document.getElementById(id).value; };
+    var subject = '【HPお問い合わせ】' + g('c-type') + '（' + g('c-name') + ' 様）';
+    var body = 'ご用件：' + g('c-type') + '\nお名前：' + g('c-name') + '\nメールアドレス：' + g('c-mail') + '\n\n' + g('c-msg');
+    location.href = 'mailto:info@yutakanojo.co.jp?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    var n = document.getElementById('form-note');
+    n.textContent = 'メールソフトが開かない場合は、info@yutakanojo.co.jp へ直接ご連絡いただくか、お電話（070-9394-3291）でお問い合わせください。';
+    n.hidden = false;
+  });
+})();
+</script>
+</body>
+</html>
