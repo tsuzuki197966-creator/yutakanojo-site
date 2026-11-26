@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://yutakanojo.co.jp/sitemap.xml
